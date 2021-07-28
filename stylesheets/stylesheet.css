@@ -107,6 +107,23 @@ a {
   .project-tagline {
     font-size: 1.4rem; } }
 
+.project-date {
+  margin-bottom: 2rem;
+  font-weight: bold;
+  opacity: 1; }
+
+@media screen and (min-width: 64em) {
+  .project-date {
+    font-size: 1.55rem; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .project-date {
+    font-size: 1.55rem; } }
+
+@media screen and (max-width: 42em) {
+  .project-date {
+    font-size: 1.4rem; } }
+
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
